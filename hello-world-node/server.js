@@ -3,7 +3,7 @@ const http = require("http"),
     os = require("os");
 
 http.createServer((req, res) => {
-    const DateTime = new Date(),
+    const dateTime = new Date(),
     load = os.loadavg(),
     doc = `<!DOCTYPE html>
 <html lang="en">
