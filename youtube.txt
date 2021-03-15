@@ -7,3 +7,19 @@ https://www.youtube.com/watch?v=fqMOX6JJhGo&list=WL&index=346
 what are Containers?
 #####################
 
+5:56 Conatiners are completely isolated envirenments 
+have own processors networkinterfaces like VM *but* they all share the same kernel
+
+6:27 idea of container not new, have existed for 10(?) years now.
+The different types of containers are LXC(?) LXD, LXCSF (?)
+
+Docker uses LXC(? ?).
+setting up container environment is hard, bc
+Container really low level, docker helps with high level tool with several powerful functionalities making it relly easy for endusers.
+
+6:37 To understand how docker works let us revisit some bascics of OS 
+
+z.B Ubuntu, Fedora, SuSE, CentOS 
+consits of two things: OS kernel and setup software
+kernel is responsible to interact with hardware.
+All these OS have same kernel (Linux), what makes them different is the Software
